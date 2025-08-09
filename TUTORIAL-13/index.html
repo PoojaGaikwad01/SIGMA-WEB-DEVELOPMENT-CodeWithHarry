@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*Element selector*/
+        div{
+            
+           /* background-color: brown;*/
+        }
+         /*Class selector*/
+        .brown{
+            background-color: blue;
+        }
+        /*ID selector*/
+        #Green{
+            background-color: aqua;
+        }
+        /*CHild Selector*/
+        div > p{
+            background-color: purple;
+        }
+        /*Descendant Selector*/
+        div p{
+            background-color: pink;
+        }
+        /*Universal Selector */
+        *{
+            margin: 10;
+            padding: 5;
+        }
+        /*Pseudo SElector*/
+        a:visited{
+            color: green;
+        }
+        /*first-child*/
+        p:first-child{
+            background-color: greenyellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am Good Girl</p>
+        <p>I am Good Boy</p>
+    </main>
+    <div class="brown">
+        I am a DIV
+        <p>I am a PARA insidde DIV</p>
+    </div>
+    <div id="Green">
+        I am Annother DIV
+        <article>
+            <p>
+                I am PARA inside DIV 2
+            </p>
+        </article>
+    </div>
+    <a href="https://www.google.com">Open Google</a>
+</body>
+</html>
