@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --prinary-color: rgb(248, 6, 127);
+    --secondary-color: pink;
+    --text-color: white;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+nav {
+    background-color: var(--prinary-color);
+    padding: 15px 0px;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    color: var(--text-color);
+}
+
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.box2 {
+    height: 300px;
+    width: auto;
+    border: 2px solid darkblue;
+    padding: 50px;
+}
+
+.boxx {
+    height: auto;
+    width: auto;
+    display: inline;
+    padding: 50px;
+    border: 2px solid black;
+    margin-top: 100px;
+
+}
