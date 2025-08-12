@@ -1,0 +1,54 @@
+/* :root {
+    --primary-color: rgb(173, 92, 248);
+    --text-color: white;
+    --secondary-color: rgb(154, 144, 163);
+} */
+ /* :root {
+    --primary-color: rgb(247, 9, 9);
+    --text-color: white;
+    --secondary-color: rgb(218, 153, 153);
+} */
+  /* :root {
+    --primary-color: rgb(245, 16, 130);
+    --text-color: white;
+    --secondary-color: rgb(218, 153, 183);
+} */
+ /* :root {
+    --primary-color: rgb(9, 13, 247);
+    --text-color: white;
+    --secondary-color: rgb(163, 153, 218);
+} */
+  :root {
+    --primary-color: rgb(9, 180, 247);
+    --text-color: white;
+    --secondary-color: rgb(153, 218, 207);
+}
+
+
+
+
+body {
+    background-color: var(--secondary-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 12px 0px;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    color: var(--text-color);
+    font-weight: bolder;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+}
