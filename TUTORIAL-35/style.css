@@ -1,0 +1,52 @@
+/* .box:first-child{
+    background-color: rgb(163, 255, 194);
+}
+.box::first-line{
+    color: darkred;
+
+} */
+/* .boxes * {
+    color: darkblue;
+    border: 2px solid black;
+}
+
+p, a, .box, [data-color="primary"] {
+    margin-top: 45px;
+    padding-top: 45px;
+} */
+/* .box:nth-child(even) {
+    background-color: blueviolet;
+} */
+/* .box:nth-child(odd) {
+    background-color: darkgray;
+} */
+.box:nth-last-child(1) {
+    background-color: rgb(184, 20, 115);
+}
+
+/* insert elements dynamically through css before html elements/.boxes class's elements */
+.boxes::before {
+    content: "I am Pooja Gaikwad";
+    color: darkblue;
+}
+
+/* insert elements dynamically through css after html elements/.boxes class's elements */
+.boxes::after {
+    content: "Pursuing my BTECH";
+    color: darkred;
+}
+
+/* Select selected elements */
+.boxes::selection {
+    color: aqua;
+    background-color: yellow;
+}
+
+.box::first-letter {
+    color: purple;
+    font-size: 45px;
+}
+
+input::placeholder {
+    color: darkblue;
+}
