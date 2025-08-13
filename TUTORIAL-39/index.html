@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Grid</title>
     <style>
-        .container{
+        .container {
             border: 2px solid black;
             display: grid;
             height: 100vh;
@@ -18,27 +19,31 @@
             justify-items: center;
             align-items: center;
         }
-        .item{
+
+        .item {
             border: 2px solid darkblue;
             height: 55px;
             width: 55px;
         }
-        .item4{
-            /* grid-column: s/t;
+
+        .item4 {
+            grid-column: s/t;
             grid-row: 1/2;
-         */
+
             /* grid-row-start: s;
             grid-row-end: t;
             grid-column-start: s;
             grid-column-end: t; */
         }
-        .item1{
+
+        .item1 {
             align-self: self-start;
             /* grid-column: 1/2;
             grid-row: 1/2; */
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="item item1">1</div>
@@ -48,4 +53,5 @@
         <div class="item">5</div>
     </div>
 </body>
+
 </html>
