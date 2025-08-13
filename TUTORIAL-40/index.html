@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 6 - Navbar using flexbox</title>
+    <style>
+        /* .logo {
+            height: 23px;
+            width: 40px;
+            background-color: blue; 
+        } */
+        .logo img {
+            width: 164px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            cursor: pointer;
+        }
+        .right ul li span{
+            padding: 0px 5px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Frame-1-2.png" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span>Products</span> <img
+                            src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-standard.svg?v=2.0" alt=""></li>
+                    <li><span>Pricing</span><img
+                            src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-standard.svg?v=2.0" alt=""></li>
+                    <li><span>Resources</span><img
+                            src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-standard.svg?v=2.0" alt=""></li>
+                    <li><span>About Us</span><img
+                            src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-standard.svg?v=2.0" alt=""></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
 </body>
+
 </html>
