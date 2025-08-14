@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+    <style>
+        /* img{
+            filter: blur(5px);
+        } */
+        .img1 {
+            filter: brightness(122%) contrast(200%);
+            filter: opacity(0.5);
+
+        }
+
+        .img2 {
+            /* for black and white img */
+            /* filter: grayscale(100%); */
+            /* old generation image */
+            /* filter: sepia(100%); */
+            filter: hue-rotate(90deg);
+
+        }
+
+        .img3 {
+            /* filter: hue-rotate(90deg); */
+            filter: drop-shadow(16px 16px 20px black);
+
+
+
+        }
+
+        .img4 {
+            /* old generation image */
+            filter: sepia(100%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjTaApYiAoBM7uJ5y0XJ1yVeWYEruNlOxHZw&s" alt=""
+            class="img4">
+        <img class="img1"
+            src="https://www.shutterstock.com/image-photo/hands-typing-on-laptop-programming-260nw-2480023489.jpg"
+            alt="">
+        <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg" alt=""> -->
+        <img class="img2"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV-JiL0IFJ74X7POTWKVitZhP4XGIYVQ81VA&s" alt="">
+        <img class="img3" src="https://i.pinimg.com/236x/8c/2c/e3/8c2ce324e0f75fdad584b21db2d7c4da.jpg" alt="">
+    </div>
+</body>
+
+</html>
