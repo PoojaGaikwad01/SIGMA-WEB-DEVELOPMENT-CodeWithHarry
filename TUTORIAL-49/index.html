@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS object-fit and object-cover</title>
+    <style>
+        /* body{
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/019/166/318/small_2x/lion-head-lion-logo-symbol-gaming-logo-elegant-element-for-brand-abstract-symbols-vector.jpg);
+        } */
+        .container {
+            height: 466px;
+            width: 488px;
+            border: 2px solid rgb(65, 10, 214);
+            background-color: aqua;
+            background-position: center;
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/019/166/318/small_2x/lion-head-lion-logo-symbol-gaming-logo-elegant-element-for-brand-abstract-symbols-vector.jpg);
+            background-repeat: no-repeat;
+            /* background-clip: border-box; */
+            /* background-image: url(https://a-z-animals.com/media/2022/09/iStock-492611032.jpg); */
+        }
+
+        img {
+            height: 466px;
+            width: 488px;
+            object-fit: contain;
+            object-position: 10px 20px;
+            /* object-position: right; */
+            /* object-position: left; */
+            /* object-position: top; */
+            /* object-position: bottom; */
+            /* object-fit: contain; */
+            /* object-fit: fill; */
+            /* object-fit: scale-down; */
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <img src="https://static.vecteezy.com/system/resources/thumbnails/019/166/318/small_2x/lion-head-lion-logo-symbol-gaming-logo-elegant-element-for-brand-abstract-symbols-vector.jpg"
+            alt=""> -->
+        <!-- <img src="https://a-z-animals.com/media/2022/09/iStock-492611032.jpg" alt=""> -->
+
+    </div>
+</body>
+
+</html>
